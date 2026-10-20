@@ -63,7 +63,7 @@ Each destination page uses the same section layout (Quick answer → Options com
    - `blog/staying-safe-on-hotel-wifi.html` (links to VPNPulse)
    Each guide ends with a relevant CTA (eSIM block or VPNPulse link).
 8. **Legal and meta pages**:
-   - `about.html` (a sister site to NetPulse and VPNPulse) and `contact.html`: Contact form posts to Web3Forms (https://api.web3forms.com/submit), using the same Web3Forms access key as netpulse/contact.html, with a fetch-based inline success message, honeypot, no mailto. Hidden fields: subject "TravelPulse contact form", from_name "TravelPulse". Keep contact@netpulse.site as a fallback line under the form.
+   - `about.html` (a sister site to NetPulse and VPNPulse) and `contact.html`: Contact form posts to Web3Forms (https://api.web3forms.com/submit), using the same Web3Forms access key as netpulse/contact.html, with a fetch-based inline success message, honeypot, no mailto. Hidden fields: subject "TravelPulse contact form", from_name "TravelPulse". Show contact@travelpulse.site as the contact email and in the fallback line under the form (also on privacy, dmca and footer). Note: contact@travelpulse.site will be set up through Cloudflare Email Routing once the travelpulse.site domain exists; until then, use contact@netpulse.site as the fallback address.
    - `privacy.html`: cover Google AdSense cookies and third-party ad vendors, and link to Google's ad settings.
    - `terms.html`, `dmca.html` and `affiliate-disclosure.html`.
    - `404.html`.

@@ -20,3 +20,8 @@
 .footer-copy + .footer-copy { margin-top: var(--nt-space-8); }
 .footer-copy a { color: var(--nt-ink-54); text-decoration: underline; text-underline-offset: 2px; }
 .footer-copy a:hover { color: var(--nt-ink); }
+
+/* eSIM provider cards: align buttons on one line */
+.vpn-grid .vpn-card { display: flex; flex-direction: column; }
+.vpn-grid .vpn-card > p:not(.tool-caption) { flex-grow: 1; }
+.vpn-grid .vpn-card > .btn { align-self: flex-start; }

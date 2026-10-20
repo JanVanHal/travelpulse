@@ -6,8 +6,8 @@
   <meta name="theme-color" content="#f6f5f4">
   <title>Contact - TravelPulse</title>
   <link rel="icon" type="image/svg+xml" href="img/travelpulse-icon.svg">
-  <meta name="description" content="Contact TravelPulse at contact@travelpulse.site. The form sends a message through Web3Forms. Until that inbox is live, use contact@netpulse.site.">
-  <link rel="canonical" href="https://travelpulse.pages.dev/contact.html">
+  <meta name="description" content="Contact TravelPulse at contact@travelpulse.site. The form sends a message through Web3Forms.">
+  <link rel="canonical" href="https://travelpulse.site/contact.html">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400&display=swap" rel="stylesheet">
@@ -59,7 +59,7 @@
             <textarea id="message" name="message" rows="5" required></textarea>
           </div>
           <button class="btn btn-primary" type="submit" id="sendBtn">Send Message</button>
-          <p class="tool-caption" id="formStatus" aria-live="polite">Problems sending? Email <a href="mailto:contact@travelpulse.site">contact@travelpulse.site</a>. Until that address is live, write to <a href="mailto:contact@netpulse.site">contact@netpulse.site</a>.</p>
+          <p class="tool-caption" id="formStatus" aria-live="polite">Problems sending? Email <a href="mailto:contact@travelpulse.site">contact@travelpulse.site</a>.</p>
         </form>
 
         <a href="index.html" class="back-link">Return to Home</a>
@@ -85,10 +85,10 @@
           form.reset();
           status.textContent = 'Thanks. Your message has been sent. We will reply by email.';
         } else {
-          status.innerHTML = 'Sorry, something went wrong. Email <a href="mailto:contact@travelpulse.site">contact@travelpulse.site</a>. Until that address is live, write to <a href="mailto:contact@netpulse.site">contact@netpulse.site</a>.';
+          status.innerHTML = 'Sorry, something went wrong. Email <a href="mailto:contact@travelpulse.site">contact@travelpulse.site</a>.';
         }
       } catch (err) {
-        status.innerHTML = 'Sorry, the message could not be sent. Email <a href="mailto:contact@travelpulse.site">contact@travelpulse.site</a>. Until that address is live, write to <a href="mailto:contact@netpulse.site">contact@netpulse.site</a>.';
+        status.innerHTML = 'Sorry, the message could not be sent. Email <a href="mailto:contact@travelpulse.site">contact@travelpulse.site</a>.';
       }
       btn.disabled = false;
     });
@@ -107,7 +107,7 @@
         <li><a href="contact.html">Contact</a></li>
       </ul>
       <p class="footer-copy">A Pulse site: <a href="https://netpulse.site">NetPulse</a> · <a href="https://vpnpulse.site">VPNPulse</a></p>
-      <p class="footer-copy">&copy; 2026 TravelPulse. Email <a href="mailto:contact@travelpulse.site">contact@travelpulse.site</a>. Until that address is live, write to <a href="mailto:contact@netpulse.site">contact@netpulse.site</a>.</p>
+      <p class="footer-copy">&copy; 2026 TravelPulse. Email <a href="mailto:contact@travelpulse.site">contact@travelpulse.site</a>.</p>
     </div>
   </footer>
 </body>

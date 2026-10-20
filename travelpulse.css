@@ -1,0 +1,22 @@
+/* TravelPulse-only. styles.css is the NetPulse file, unchanged. */
+
+.mission-card h2,
+.policy-section h2,
+.vpn-cta h2 {
+  margin: 0 0 var(--nt-space-12);
+  color: var(--nt-ink);
+  font-size: 18px;
+  font-weight: var(--nt-weight-semibold);
+  letter-spacing: 0;
+  line-height: 1.3;
+}
+.policy-section ol {
+  margin: var(--nt-space-12) 0 0;
+  padding-left: var(--nt-space-24);
+  color: var(--nt-graphite);
+}
+.vpn-card .btn { align-self: flex-start; margin-top: var(--nt-space-8); }
+.vpn-card .tool-caption { margin-top: var(--nt-space-8); }
+.footer-copy + .footer-copy { margin-top: var(--nt-space-8); }
+.footer-copy a { color: var(--nt-ink-54); text-decoration: underline; text-underline-offset: 2px; }
+.footer-copy a:hover { color: var(--nt-ink); }

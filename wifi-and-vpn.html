@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f6f5f4">
+  <title>Public wifi and VPNs while travelling - TravelPulse</title>
+  <link rel="icon" type="image/svg+xml" href="img/travelpulse-icon.svg">
+  <meta name="description" content="Risks of hotel and cafe wifi, simple habits that reduce them, and what a VPN does and does not do. Links to VPNPulse.">
+  <link rel="canonical" href="https://travelpulse.pages.dev/wifi-and-vpn.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=2">
+  <link rel="stylesheet" href="travelpulse.css?v=1">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5573618445420036" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <nav class="site-nav" aria-label="Primary">
+        <a href="index.html" class="logo"><img class="logo-icon" src="img/travelpulse-icon.svg" alt="" width="28" height="28">TravelPulse</a>
+        <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="primary-menu" onclick="var h=this.closest('.site-header'),o=h.classList.toggle('nav-open');this.setAttribute('aria-expanded',o);this.setAttribute('aria-label',o?'Close menu':'Open menu')"><span class="nav-toggle-bars" aria-hidden="true"><span></span><span></span><span></span></span>Menu</button>
+        <ul class="nav-links" id="primary-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="esim.html">eSIM</a></li>
+          <li><a href="roaming.html">Roaming</a></li>
+          <li><a href="wifi-and-vpn.html" class="active">Wifi</a></li>
+          <li><a href="destinations.html">Destinations</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-wrap">
+    <div class="container">
+      <div class="reading-panel">
+        <h1>Wifi and VPN</h1>
+        <p class="lede">Hotel, airport, cafe, and mall wifi are shared networks. Other people, and the router itself, are closer to your traffic than they are on your home connection.</p>
+
+        <div class="policy-section">
+          <h2>What is risky</h2>
+          <ul>
+            <li>Open networks. A network with no password lets anyone in range join and watch for unencrypted traffic. Most websites now use HTTPS, so the page contents are encrypted to the site. The network can still see which sites you contact when the name is not hidden, and it can see anything that is still plain HTTP.</li>
+            <li>Fake hotspots. A phone or a travel router can advertise the same name as the hotel ("Hotel WiFi"). The password on the wall then joins you to the wrong box. A VPN does not tell you which box you joined.</li>
+            <li>Captive portals. The login page that pops up after you connect (room number, email, a tick box) is run by the network. Use it to get online, and do not type a bank password or an email password into that page. A portal that asks for more than a room number or an email is a reason to stop and use mobile data instead.</li>
+          </ul>
+        </div>
+        <div class="policy-section">
+          <h2>Habits that cost nothing</h2>
+          <ul>
+            <li>Prefer HTTPS. Look for the lock and a name you recognise before you type a password.</li>
+            <li>Forget the network when you leave. Phones will rejoin a saved name automatically, including a fake one that copies it later.</li>
+            <li>Do banking on mobile data, or after a VPN is connected. Do not do it on a portal page, and do not do it in the minute between joining wifi and connecting the VPN.</li>
+            <li>Turn off auto-join for public networks, and avoid installing a "wifi login" app a poster tells you to download.</li>
+          </ul>
+        </div>
+        <div class="policy-section">
+          <h2>What a VPN changes</h2>
+          <p>A VPN app encrypts traffic from your phone to a server the VPN company runs. On hotel wifi, the local network then sees a connection to that company, and how much data moves, rather than the list of sites inside the tunnel. Sites you open see the VPN server's address.</p>
+          <p>That is useful on a network you do not trust. It is also the reason some hotels block VPN servers. If the app will not connect, mobile data or another server inside the app is the usual next step.</p>
+        </div>
+        <div class="policy-section">
+          <h2>What a VPN does not do</h2>
+          <ul>
+            <li>It does not prove the network name is the hotel's. You can be inside a tunnel and still attached to a lookalike hotspot.</li>
+            <li>It does not inspect the website. A misspelled bank address loads through the tunnel. Read the address.</li>
+            <li>It does not replace the lock. HTTPS still matters for the hop from the VPN server to the site, and for spotting a fake page.</li>
+            <li>It does not hide you from an account you log into. The bank, the airline, and the messaging app still know that account is yours.</li>
+            <li>It does not stop your home carrier billing roaming if cellular data is still on. Wifi and a VPN are separate from the roaming switch.</li>
+          </ul>
+          <p>The hotel-wifi version of this, with the order of steps, is <a href="blog/staying-safe-on-hotel-wifi.html">Staying safe on hotel wifi</a>.</p>
+        </div>
+        <div class="mission-card">
+          <h2>Choosing a VPN</h2>
+          <p>TravelPulse does not compare VPN providers. <a href="https://vpnpulse.site">Learn how to choose a VPN at VPNPulse</a>. VPNPulse is a sister site. It explains jurisdiction, logging, devices, and refunds, and it does not print a winner.</p>
+        </div>
+        <a href="index.html" class="back-link">Return to Home</a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <a href="index.html" class="logo"><img class="logo-icon" src="img/travelpulse-icon.svg" alt="" width="28" height="28">TravelPulse</a>
+      <ul class="footer-links">
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="privacy.html">Privacy Policy</a></li>
+        <li><a href="terms.html">Terms of Service</a></li>
+        <li><a href="dmca.html">DMCA</a></li>
+        <li><a href="affiliate-disclosure.html">Affiliate Disclosure</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <p class="footer-copy">A Pulse site: <a href="https://netpulse.site">NetPulse</a> · <a href="https://vpnpulse.site">VPNPulse</a></p>
+      <p class="footer-copy">&copy; 2026 TravelPulse. Email <a href="mailto:contact@travelpulse.site">contact@travelpulse.site</a>. Until that address is live, write to <a href="mailto:contact@netpulse.site">contact@netpulse.site</a>.</p>
+    </div>
+  </footer>
+</body>
+</html>

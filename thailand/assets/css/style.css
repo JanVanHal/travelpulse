@@ -1060,3 +1060,11 @@ html.js .reveal:not(.is-in):focus-within {
 .shorts-row { display: grid; grid-auto-flow: column; grid-auto-columns: minmax(160px, 1fr); gap: 1rem; overflow-x: auto; padding-bottom: .5rem; margin: 1rem 0 1.25rem; scroll-snap-type: x mandatory; }
 .short-card { scroll-snap-align: start; display: flex; flex-direction: column; gap: .4rem; text-decoration: none; color: var(--ink); font-weight: 600; font-size: .9rem; }
 .short-card img { width: 100%; height: auto; aspect-ratio: 9 / 16; object-fit: cover; border-radius: var(--radius); }
+/* Videos blog page */
+.video-feed { max-width: 720px; }
+.video-post { padding-bottom: 2.5rem; margin-bottom: 2.5rem; border-bottom: 1px solid rgba(23,23,23,.15); }
+.video-post h3 { margin-top: 1.5rem; }
+.post-date { font-family: "IBM Plex Mono", monospace; font-size: .85rem; opacity: .75; margin: 0 0 .25rem; }
+.video-embed--small { max-width: 520px; margin-left: auto; margin-right: auto; }
+.short-card--more { justify-content: flex-start; }
+.short-more-box { display: flex; align-items: center; justify-content: center; aspect-ratio: 9 / 16; border-radius: var(--radius); background: var(--coral, #FF6545); color: #fff; font-size: 1.1rem; }
